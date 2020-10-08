@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>前端招新答题卷</title>
+    <style>
+        .q4-header,
+        .q4-footer {
+            box-sizing: border-box;
+            padding: 15px;
+        }
+
+        .q4-body {
+            overflow: hidden;
+            clear: both;
+        }
+
+        .left,
+        .right {
+            margin: 20px 0;
+            box-sizing: border-box;
+            width: 180px;
+            padding: 30px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div>
+        <p>
+            要求: 查询相关知识将下面模板美化成同名文件夹下面picture.png的样式
+            1. 中间部分水平居中, 文字水平居中, 边框为 5px lightblue
+            2. 头部和尾部要文字水平居中, 高度60px, 边框为 5px 粉色
+        </p>
+    </div>
+    <div>
+        <div class="outter">
+            <div class="q4-header" style="text-align:center ;border-width:5px;
+            border-style:solid;
+            border-color:pink;"
+           
+            >这里是头部</div>
+          
+            <div class="q4-body">
+                <div class="left" style="left: 800px; position: absolute; top: 150px;border-width:5px;
+                border-style:solid;
+                border-color:lightblue;
+                line-height:80px">经常遇到的布局</div>
+                <div class="right"style="left:1000px; position: absolute; top: 150px;border-width:5px;
+                border-style:solid;
+                border-color:lightblue;
+                line-height:160px">右边部分</div>
+            </div>
+            <div class="q4-footer" style="left: 625px;margin-top: 500px;text-align:center ;border-width:5px;
+            border-style:solid;width: 100%;
+            border-color:pink">这里是尾部</div>
+        </div>
+    </div>
+</body>
+
+</html>
