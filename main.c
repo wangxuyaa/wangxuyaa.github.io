@@ -1,6 +1,8 @@
 #include <stdio.h>
 int main(void)
 {
-    printf("15减去37的结果是%d。\n",15 - 37);
-    return 0;
+    printf("天\n");
+    printf("地\n");
+    printf("人\n");
+    return 0 ;
 }
